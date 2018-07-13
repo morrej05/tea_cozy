@@ -13,12 +13,8 @@ header {
   height: 69px;
   display: flex;
   border-bottom: 1px solid seashell;
-  z-index: 2;
+  z-index: 5;
   flex: 1;
-}
-
-.logo {
-
 }
 
 .logo img {
@@ -49,6 +45,8 @@ span a {
   display: flex;
   /*justify-content: center;*/
   align-items: center;
+  z-index: 1;
+
 
 }
 
@@ -82,6 +80,7 @@ span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .piccy_container {
@@ -140,5 +139,19 @@ span a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
 
+/* Fourth row */
+.teacozy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  height: 200px;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  margin-left: 20px;
 }
