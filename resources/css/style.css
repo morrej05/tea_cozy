@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+  width: 1250px;
+  }
+
+header {
+  height: 69px;
+  display: flex;
+  border-bottom: 1px solid seashell;
+  z-index: 2;
+  flex: 1;
+}
+
+.logo {
+
+}
+
+.logo img {
+  margin: auto;
+  height: 50px;
+  padding-left: 10px;
+  color: seashell;
+}
+
+nav  {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 10px;
+}
+
+span a {
+  color: seashell;
+  text-decoration: underline;
+  padding-left: 20px;
+}
+
+/* First row */
+.firstrow {
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+
+}
+
+.mainpicture img {
+  width: 1200px;
+  height: 700px;
+}
+
+.mission {
+  display: block;
+  position: absolute;
+  background-color: black;
+  width: 1200px;
+}
+
+.mission h2, h4 {
+  display: flex;
+  justify-content: center;
+}
+/* Second row */
+
+.secondrow {
+/*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.piccy_container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.piccys img {
+  height: 200px;
+  width: 300px;
+  margin-left: 20px;
+}
+
+.piccys h4 {
+  margin-top: 10px;
+}
+
+/* Third row */
+.thirdrow {
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 500px;
+}
+
+.writingbox {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.thirdrow img {
+  height: 500px;
+  width: 1200px;
+}
+
+.boxes {
+  display: inline-flex;
+
+}
+
+.thirdrow .box1 {
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  margin-top: 15px;
+  margin-right: 40px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
